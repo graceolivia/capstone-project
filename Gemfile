@@ -74,3 +74,6 @@ end
 gem 'pg', '~> 1.3'
 
 gem 'bundler-audit', '~> 0.9.0'
+
+gem 'webpacker'
+gem 'foreman'
