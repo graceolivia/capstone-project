@@ -8,7 +8,7 @@
 export default {
   data: function () {
     return {
-      message: "Hello Vue it's Grace!"
+      message: "If this is displayed, Vue is working!"
     }
   }
 }

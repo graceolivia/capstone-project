@@ -1,2 +1,21 @@
-<h1>Hello, Rails!</h1>
-<p>hello hello</p>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vueapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_pack_tag 'hello_vue' %>
+    <%= javascript_pack_tag 'hello_vue' %>
+
+  </head>
+
+  <body>
+  <h1>Yarn finder</h1>
+    <%= yield %>
+  </body>
+</html>
